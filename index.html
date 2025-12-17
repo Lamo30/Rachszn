@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RACHIIS-TREATS</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="icon" href="images/Rach_logo.jpg">
+    
+    
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="logo">
+                <a href="#Home"><img src="images/Rach_logo.jpg" alt=""></a>
+            </div>
+            <ul>
+                <li class="image-card">
+                    <a href="outlet.html" target="_blank"><img src="icons/outlets.svg" alt=""><!-- OUTLETS --></a>
+                    <div class="caption-glass">OUTLETS</div>
+                </li>
+                <li class="image-card">
+                    <a href="kitchen.html" target="_blank">
+                        <img src="icons/kitchen.svg" alt=""><!-- DISHES -->
+                        <div class="caption-glass">DISHES</div>
+                    </a>
+                </li>
+                <li class="image-card">
+                    <a href="payments.html" target="_blank"><img src="icons/payments.svg" alt=""><!-- PAYMENTS --></a>
+                    <div class="caption-glass">PAYMENTS</div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="section-one" id="Home">
+            <h1>THE MASTER CHEF</h1>
+            <div class="chef">
+                <div class="chef-text">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis pariatur inventore est et architecto culpa adipisci cumque nemo, dicta ullam iusto neque officia tenetur saepe nostrum praesentium minus veniam. Non.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ab id temporibus iusto voluptatibus cum repudiandae. Voluptatem reiciendis possimus odio, nemo saepe corrupti doloremque maxime nam pariatur temporibus non cum?
+                    </p>
+                </div>
+                <div class="chef-photo">
+                    <img src="images/cheffotos.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="section-two">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><h1>THE MENU</h1><img src="images/Menu-One.JPG" alt=""></div>
+                    <div class="swiper-slide"><h1>THE MENU</h1><img src="images/Menu-two.JPG" alt=""></div>
+                    <div class="swiper-slide"><h1>PRICE LIST</h1><img src="images/Price-List.JPG" alt=""></div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="end">
+            <div class="endings">
+                <h3>Bookings & Orders</h3>
+                <p>Weddings</p>
+                <p>Birthdays</p>
+                <p>Festivals</p>
+                <p>Naming ceremonies</p>
+                <p>Burial ceremonies</p>
+            </div>
+            <div class="endings">
+                <h3>Policies</h3>
+                <p>Terms & Conditions</p>
+                <p>Sponsorships</p>
+                <p>Partnerships</p>
+            </div>
+            <div class="endings">
+                <h3>Tuitorials</h3>
+                <p>Baking classes</p>
+                <p>Intercontinental Recipes</p>
+                <p>Local Cuisines</p>
+            </div>
+        </div>
+        <p class="copyright">
+            &copy;2025 RACHIIS-TREATS. All rights reserved.
+        </p>
+        <div class="socials">
+            <div class="socials-icon">
+                <a href="https://www.instagram.com/rachiis_treats?igsh=MWkxc3k5dWVzMmZzdA==" target="_blank"><img src="icons/ig.svg" alt=""></a>
+            </div>
+            <div class="socials-icon">
+                <a href="" target="_blank"><img src="icons/mail.svg" alt=""></a>
+            </div>
+            <div class="socials-icon">
+                <a href="" target="_blank"><img src="icons/youtube.svg" alt=""></a>
+            </div>
+            <div class="socials-icon">
+                <a href="" target="_blank"><img src="icons/facebook.svg" alt=""></a>
+            </div>
+            <div class="socials-icon">
+                <a href="" target="_blank"><img src="icons/tiktok.svg" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/+2347034912717" class="whatsapp-floating" target="_blank">
+        <img src="icons/whatsapp.svg" alt="">
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="js/main.js" defer></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+    </script>
+</body>
+</html>
