@@ -243,7 +243,7 @@ footer{
 
 @media only screen and (max-width: 600px) {
     body {
-        background-color: aqua;
+        background-color: white;
     }
 
     header div{
