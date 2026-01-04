@@ -26,7 +26,7 @@ header div{
     display: flex;
     justify-content: center;
     /* padding: 0.2rem 0rem; */
-    gap: 55rem; 
+    gap: 40rem; 
 }
 
 .logo{
@@ -48,7 +48,7 @@ header div{
 
 header div ul{
     display: flex;
-    gap: 15rem;
+    gap: 10rem;
     list-style-type: none;
 }
 
@@ -115,7 +115,7 @@ header div ul li a img{
     display: flex;
     align-items: left;
     text-align: left;
-    gap: 40rem;
+    gap: 13rem;
 }
 
 .chef-text p{
