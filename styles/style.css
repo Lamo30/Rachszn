@@ -17,7 +17,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 1000;
-    border-radius: 1px solid rgb(77, 75, 75);
+    border-radius: 1px /* solid */ rgb(77, 75, 75);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
     background-color: white;
 }
@@ -35,7 +35,7 @@ header div{
 
 .logo img{
     border-radius: 50%;
-    width: 90px;
+    width: 60px;
     object-fit: cover;
     transition: all 0.5s;
     padding: 10px;
@@ -72,7 +72,7 @@ header div ul{
   color: brown;
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  /* -webkit-backdrop-filter: blur(12px); */
   border-radius: 12px;
   opacity: 0;
   transition: transform 0.5s ease, opacity 0.3s ease;
@@ -113,9 +113,9 @@ header div ul li a img{
 
 .chef {
     display: flex;
-    align-items: left;
+    /* align-items: left; */
     text-align: left;
-    gap: 13rem;
+    gap: 25rem;
 }
 
 .chef-text p{
@@ -258,6 +258,7 @@ footer{
 
     .section-one h1{
         margin-bottom: 2rem;
+        font-family: sans-serif;
     }
 
 
@@ -277,7 +278,7 @@ footer{
         color: #000000;
         font-style: normal;
         font-family: sans-serif;
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
     }
 
     .chef img{
@@ -285,6 +286,7 @@ footer{
         width: 250px;
         border-radius: 0px;
         border: none;
+        margin-bottom: 3rem;
     }
 
     .section-two{
@@ -313,7 +315,7 @@ footer{
     }
 }
 
-/* @media only screen and (min-device-width: 768px){
+@media only screen and (max-width: 768px){
     body {
         background-color: aqua;
     }
@@ -340,4 +342,4 @@ footer{
         text-align: center;
         gap: 1px;
     }
-} */
+}
